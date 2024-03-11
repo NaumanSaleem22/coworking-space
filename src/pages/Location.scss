@@ -1,0 +1,244 @@
+.location-section {
+    padding: 112px 115px 100px;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    @media (max-width: 1600px) {
+        padding: 72px 48px;
+    }
+    @media (max-width: 1024px) {
+        padding: 48px 24px;
+    }
+
+    .content-div {
+        max-width: 1211px;
+        width: 100%;
+        .back-btn {
+            margin-bottom: 90px;
+            @media (max-width: 1600px) {
+                margin-bottom: 48px;
+            }
+            button {
+                font-family: Avenir;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 90px;
+                letter-spacing: 0em;
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                @media (max-width: 1600px) {
+                    font-size: 38px;
+                }
+            }
+        }
+        .heading-div {
+            font-family: Avenir;
+            font-size: 70px;
+            font-weight: 800;
+            line-height: 90px;
+            letter-spacing: 0em;
+            margin-bottom: 50px;
+            .colored-text {
+                color: #d75f04;
+            }
+            @media (max-width: 1600px) {
+                font-size: 48px;
+                line-height: 68px;
+            }
+            @media (max-width: 1024px) {
+                font-size: 36px;
+                line-height: 48px;
+            }
+        }
+        .text {
+            font-family: Avenir;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0em;
+            color: #000000cc;
+            @media (max-width: 1600px) {
+                font-size: 24px;
+                line-height: 36px;
+            }
+            @media (max-width: 1024px) {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+    }
+    .card-outer-div {
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 46px;
+
+        @media (max-width: 1600px) {
+            gap: 24px;
+            margin-top: 48px;
+        }
+        @media (max-width: 575px) {
+            gap: 0px;
+            margin-top: 24px;
+        }
+        .card-location {
+            width: calc(22.9% - 1px);
+            background-color: #d75f041a;
+            max-width: 388px;
+            max-height: 368px;
+            // width: 100%;
+            height: 100%;
+            padding: 139px 69px;
+            text-align: center;
+            margin-bottom: 46px;
+            cursor: pointer;
+            transition: 0.2s ease all;
+            @media (max-width: 1600px) {
+                padding: 100px 24px;
+            }
+            @media (max-width: 1024px) {
+                padding: 70px 24px;
+                width: calc(28%);
+            }
+            @media (max-width: 768px) {
+                padding: 70px 24px;
+                width: calc(46%);
+            }
+            @media (max-width: 575px) {
+                padding: 70px 24px;
+                width: calc(95%);
+            }
+            &:hover {
+                background-color: #d75f04;
+                .content {
+                    color: white;
+                    img {
+                        filter: grayscale(1) brightness(100);
+                    }
+                }
+                .content-div {
+                    color: white;
+                    .btn-div {
+                        button {
+                            color: white;
+                            border: 1px solid white;
+                        }
+                    }
+                }
+            }
+            .content {
+                font-family: Avenir;
+                font-size: 45px;
+                font-weight: 400;
+                line-height: 90px;
+                letter-spacing: 0em;
+                color: #000000cc;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                transition: 0.2s ease all;
+                img {
+                    max-width: 36px;
+                    width: 100%;
+                    transition: 0.1s ease all;
+                }
+                @media (max-width: 1600px) {
+                    font-size: 36px;
+                    line-height: 52px;
+                }
+                @media (max-width: 1024px) {
+                    font-size: 24px;
+                    line-height: 34px;
+                }
+            }
+        }
+        .state-card {
+            padding: 0px 16px;
+
+            .content {
+                font-family: Avenir;
+                font-size: 35px;
+                font-weight: 400;
+                line-height: 90px;
+                letter-spacing: 0em;
+                text-align: center;
+                justify-content: center;
+                @media (max-width: 1600px) {
+                    font-size: 28px;
+                    line-height: 90px;
+                }
+                @media (max-width: 1024px) {
+                    font-size: 20px;
+                }
+            }
+        }
+        .state-specific-card {
+            padding: 22px 20px 54px;
+            text-align: center;
+            max-height: 378px;
+            @media (max-width: 1600px) {
+                padding: 16px 16px 32px;
+            }
+            .content-div {
+                .heading {
+                    font-family: Avenir;
+                    font-size: 35px;
+                    font-weight: 800;
+                    line-height: 90px;
+                    letter-spacing: 0em;
+                    @media (max-width: 1600px) {
+                        font-size: 28px;
+                    }
+                    @media (max-width: 1024px) {
+                        font-size: 22px;
+                    }
+                }
+                .textt {
+                    font-family: Avenir;
+                    font-size: 25px;
+                    font-weight: 350;
+                    line-height: 40px;
+                    letter-spacing: 0em;
+                    margin-bottom: 25px;
+                    @media (max-width: 1600px) {
+                        font-size: 20px;
+                    }
+                    @media (max-width: 1024px) {
+                        font-size: 16px;
+                    }
+                }
+                .btn-div {
+                    max-width: 189px;
+                    width: 100%;
+                    margin: 0 auto;
+                    button {
+                        background-color: transparent;
+                        border: 1px solid #d75f04;
+                        outline: none;
+                        font-family: Avenir;
+                        font-size: 25px;
+                        font-weight: 800;
+                        line-height: 39px;
+                        letter-spacing: 0em;
+                        padding: 12px 27px;
+                        color: #d75f04;
+                        width: 100%;
+                        @media (max-width: 1600px) {
+                            font-size: 20px;
+                            padding: 6px 12px;
+                        }
+                        @media (max-width: 1024px) {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,754 @@
+.space-section {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 112px 109px 51px;
+    @media (max-width: 1600px) {
+        padding: 72px 48px;
+    }
+    @media (max-width: 1024px) {
+        padding: 48px 24px;
+    }
+    .content-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        @media (max-width: 1024px) {
+            flex-direction: column;
+            gap: 24px;
+        }
+        .heading-div {
+            font-family: Avenir;
+            font-size: 70px;
+            font-weight: 800;
+            line-height: 45px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 50px;
+            @media (max-width: 1600px) {
+                font-size: 48px;
+                line-height: 68px;
+            }
+            @media (max-width: 1024px) {
+                font-size: 36px;
+                line-height: 48px;
+                margin-bottom: 24px;
+            }
+            span {
+                color: #d75f04;
+            }
+        }
+        .desc-div {
+            font-family: Avenir;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #000000cc;
+            max-width: 1000px;
+            @media (max-width: 1600px) {
+                font-size: 24px;
+                line-height: 36px;
+            }
+            @media (max-width: 1024px) {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+        .phone-div {
+            font-family: Avenir;
+            font-size: 25px;
+            font-weight: 800;
+            line-height: 39px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #d75f04;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            img {
+                max-width: 20px;
+            }
+        }
+    }
+
+    .outer-div {
+        display: flex;
+        gap: 24px;
+        margin-top: 100px;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        @media (max-width: 1024px) {
+            margin-top: 48px;
+            flex-direction: column;
+        }
+        .left-div {
+            max-width: 977px;
+            width: 100%;
+            .steps-outer-space {
+                display: flex;
+                gap: 24px;
+                @media (max-width: 1600px) {
+                    margin-top: 72px;
+                    gap: 16px;
+                }
+                @media (max-width: 1440px) {
+                    gap: 4px;
+                }
+                @media (max-width: 1024px) {
+                    margin-top: 48px;
+                }
+                @media (max-width: 768px) {
+                    margin: 0;
+                    flex-direction: column;
+                }
+                .steps {
+                    font-family: Avenir;
+                    font-size: 20px;
+                    font-weight: 800;
+                    line-height: 35px;
+                    letter-spacing: 0em;
+                    color: #00000099;
+                    padding: 8px;
+                    cursor: pointer;
+                    @media (max-width: 1600px) {
+                        font-size: 18px;
+                        line-height: 32px;
+                    }
+                    @media (max-width: 1440px) {
+                        font-size: 16px;
+                        line-height: 32px;
+                    }
+                }
+                .active-step {
+                    color: #d75f04;
+                    border-bottom: 3px solid #d75f04;
+                }
+            }
+            .desc {
+                margin-top: 113px;
+                font-family: Avenir;
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #000000;
+                @media (max-width: 1600px) {
+                    font-size: 24px;
+                    line-height: 36px;
+                }
+                @media (max-width: 1024px) {
+                    font-size: 18px;
+                    line-height: 30px;
+                    margin-top: 52px;
+                }
+            }
+            .cards-outer-div {
+                margin-top: 60px;
+                display: flex;
+                gap: 39px;
+                flex-wrap: wrap;
+                cursor: pointer;
+                @media (max-width: 1600px) {
+                    gap: 24px;
+                }
+
+                @media (max-width: 1024px) {
+                    gap: 16px;
+                    margin-top: 32px;
+                }
+                .card {
+                    padding: 60px 50px;
+                    width: calc(48%);
+                    position: relative;
+                    @media (max-width: 1600px) {
+                        padding: 32px 24px;
+                    }
+
+                    @media (max-width: 1024px) {
+                        padding: 24px 16px;
+                    }
+                    @media (max-width: 768px) {
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                    .icon-img {
+                        max-width: 50px;
+                        max-height: 50px;
+                        width: 100%;
+                        height: 100%;
+                        margin-bottom: 16px;
+                        @media (max-width: 1600px) {
+                            max-width: 40px;
+                            max-height: 40px;
+                        }
+
+                        @media (max-width: 1024px) {
+                            max-width: 30px;
+                            max-height: 30px;
+                        }
+                    }
+                    .heading {
+                        font-family: Avenir;
+                        font-size: 40px;
+                        font-weight: 800;
+                        line-height: 62px;
+                        letter-spacing: 0em;
+                        color: #d75f04;
+                        @media (max-width: 1600px) {
+                            font-size: 32px;
+                            line-height: 42px;
+                        }
+                        @media (max-width: 1024px) {
+                            font-size: 24px;
+                            line-height: 34px;
+                        }
+                    }
+                    .heading-div-icon {
+                        display: flex;
+                        gap: 40px;
+                        @media (max-width: 1600px) {
+                            gap: 24px;
+                        }
+                        @media (max-width: 1024px) {
+                            gap: 16px;
+                        }
+                    }
+                    .card-desc {
+                        font-family: Avenir;
+                        font-size: 30px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        letter-spacing: 0em;
+                        margin-top: 60px;
+                        padding-left: 70px;
+                        @media (max-width: 1600px) {
+                            font-size: 24px;
+                            line-height: 32px;
+                            margin-top: 16px;
+                            padding-left: 50px;
+                        }
+                        @media (max-width: 1024px) {
+                            font-size: 18px;
+                            line-height: 30px;
+                        }
+                    }
+                    ul {
+                        margin-top: 38px;
+                        @media (max-width: 1600px) {
+                            margin-top: 24px;
+                        }
+                        @media (max-width: 1024px) {
+                            margin-top: 16px;
+                        }
+                        li {
+                            font-family: Avenir;
+                            font-size: 30px;
+                            font-weight: 350;
+                            line-height: 42px;
+                            letter-spacing: 0em;
+                            color: #000000cc;
+                            margin-bottom: 22px;
+                            @media (max-width: 1600px) {
+                                font-size: 24px;
+                                line-height: 32px;
+                                margin-bottom: 16px;
+                            }
+                            @media (max-width: 1024px) {
+                                font-size: 18px;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                    input {
+                        position: absolute;
+                        bottom: 30px;
+                        right: 30px;
+                        width: 40px;
+                        height: 40px;
+                        @media (max-width: 1600px) {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+                .selected {
+                    background: #d75f040d;
+                }
+            }
+            .cards-outer-div-2 {
+                flex-direction: column;
+                .card2 {
+                    width: 100%;
+                    input {
+                        left: 50px;
+                        top: 180px;
+                        bottom: unset;
+                        right: unset;
+                        @media (max-width: 1600px) {
+                            left: 28px;
+                            top: 108px;
+                        }
+                        @media (max-width: 1024px) {
+                            left: 21px;
+                            top: 91px;
+                        }
+                    }
+                    ul {
+                        padding-left: 100px;
+                        @media (max-width: 1600px) {
+                            padding-left: 70px;
+                        }
+                    }
+                }
+            }
+            .agreement-outer {
+                margin-top: 60px;
+                padding: 60px 64px;
+                border: 1px solid #0000004d;
+                @media (max-width: 1600px) {
+                    padding: 32px;
+                }
+                @media (max-width: 1024px) {
+                    font-size: 16px;
+                    line-height: 30px;
+                    padding: 16px;
+                }
+                .heading-div {
+                    font-family: Avenir;
+                    font-size: 40px;
+                    font-weight: 800;
+                    line-height: 25px;
+                    letter-spacing: 0em;
+                    color: #d75f04;
+                    margin-bottom: 40px;
+                    @media (max-width: 1600px) {
+                        font-size: 30px;
+                        line-height: 42px;
+                        margin-bottom: 16px;
+                    }
+                    @media (max-width: 1024px) {
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+                }
+                .desc {
+                    font-family: Avenir;
+                    font-size: 25px;
+                    font-weight: 350;
+                    line-height: 25px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin-top: 0;
+                    @media (max-width: 1600px) {
+                        font-size: 20px;
+                        line-height: 32px;
+                    }
+                    @media (max-width: 1024px) {
+                        font-size: 16px;
+                        line-height: 30px;
+                    }
+                }
+                .length-outer-card {
+                    margin-top: 35px;
+                    display: flex;
+                    gap: 30px;
+                    @media (max-width: 1600px) {
+                        gap: 16px;
+                    }
+                    @media (max-width: 1024px) {
+                        flex-wrap: wrap;
+                    }
+
+                    .length-card {
+                        background-color: #d75f040d;
+                        padding: 32px 24px;
+                        @media (max-width: 768px) {
+                            width: 100%;
+                            text-align: center;
+                        }
+                        .card-headd {
+                            font-family: Avenir;
+                            font-size: 25px;
+                            font-weight: 800;
+                            line-height: 25px;
+                            letter-spacing: 0em;
+                            color: #d75f04;
+                            margin-bottom: 36px;
+                            display: flex;
+                            align-items: center;
+                            gap: 6px;
+                            @media (max-width: 1600px) {
+                                font-size: 20px;
+                                line-height: 32px;
+                                margin-bottom: 16px;
+                            }
+                            @media (max-width: 1024px) {
+                                font-size: 16px;
+                                line-height: 30px;
+                            }
+                            @media (max-width: 768px) {
+                                justify-content: center;
+                            }
+                        }
+                        .price {
+                            font-family: Avenir;
+                            font-size: 30px;
+                            font-weight: 800;
+                            line-height: 35px;
+                            letter-spacing: 0em;
+                            @media (max-width: 1600px) {
+                                font-size: 22px;
+                                line-height: 32px;
+                            }
+                            @media (max-width: 1024px) {
+                                font-size: 18px;
+                                line-height: 30px;
+                            }
+                        }
+                        .month {
+                            font-family: Avenir;
+                            font-size: 25px;
+                            font-weight: 350;
+                            line-height: 35px;
+                            letter-spacing: 0em;
+                            @media (max-width: 1600px) {
+                                font-size: 20px;
+                                line-height: 32px;
+                            }
+                            @media (max-width: 1024px) {
+                                font-size: 16px;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+                .pick-date-div {
+                    margin-top: 80px;
+                    .label-div {
+                        font-family: Avenir;
+                        font-size: 25px;
+                        font-weight: 350;
+                        line-height: 25px;
+                        letter-spacing: 0em;
+                        color: #000000cc;
+                        @media (max-width: 1600px) {
+                            font-size: 20px;
+                            line-height: 32px;
+                        }
+                        @media (max-width: 1024px) {
+                            font-size: 16px;
+                            line-height: 30px;
+                        }
+                    }
+                    .input-date {
+                        margin-top: 40px;
+                        width: 100%;
+                        margin-bottom: 192px;
+                        @media (max-width: 1600px) {
+                            margin-top: 24px;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 16px 39px;
+                            background-color: #d75f040d;
+                            border: none;
+                            outline: none;
+                            font-family: Avenir;
+                            font-size: 25px;
+                            font-weight: 400;
+                            line-height: 55px;
+                            letter-spacing: 0em;
+                            @media (max-width: 1600px) {
+                                font-size: 20px;
+                                line-height: 32px;
+                            }
+                            @media (max-width: 1024px) {
+                                font-size: 16px;
+                                line-height: 30px;
+                                padding: 8px 16px;
+                            }
+                        }
+                    }
+                }
+                .input-outer-div {
+                    max-width: 656px;
+                    width: 100%;
+                    margin-bottom: 94px;
+                    margin-top: 64px;
+                    @media (max-width: 1600px) {
+                        margin-top: 32px;
+                        margin-bottom: 32px;
+                    }
+                    @media (max-width: 1024px) {
+                        margin-top: 16px;
+                        margin-bottom: 16px;
+                    }
+                    .input-div {
+                        width: 100%;
+                        margin-bottom: 40px;
+                        input {
+                            width: 100%;
+                            border: none;
+                            border-bottom: 1px solid #00000080;
+                            font-family: Avenir;
+                            font-size: 25px;
+                            font-weight: 400;
+                            line-height: 55px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            padding: 27px 26px 8px;
+                            outline: none;
+                            @media (max-width: 1600px) {
+                                font-size: 20px;
+                                line-height: 32px;
+                                margin-bottom: 16px;
+                            }
+                            @media (max-width: 1024px) {
+                                font-size: 16px;
+                                line-height: 30px;
+                                padding: 16px;
+                            }
+                        }
+                    }
+                }
+                .outer-price-radio-div {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 30px;
+                    margin-bottom: 84px;
+                    width: 100%;
+                    @media (max-width: 1600px) {
+                        margin-bottom: 32px;
+                        gap: 16px;
+                    }
+                    .input-radio-div {
+                        max-width: 50px;
+                        height: 50px;
+                        width: 100%;
+                        @media (max-width: 1600px) {
+                            height: 30px;
+                            width: 30px;
+                        }
+                        @media (max-width: 1024px) {
+                            height: 20px;
+                            width: 20px;
+                        }
+                        input {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .outer-text-div {
+                        width: 100%;
+                        .heading-div {
+                            font-family: Avenir;
+                            font-size: 40px;
+                            font-weight: 800;
+                            line-height: 55px;
+                            letter-spacing: 0em;
+                            color: #d75f04;
+                            @media (max-width: 1600px) {
+                                font-size: 30px;
+                                line-height: 32px;
+                                margin-bottom: 16px;
+                            }
+                            @media (max-width: 1024px) {
+                                font-size: 24px;
+                                line-height: 22px;
+                            }
+                        }
+                        .input-text-div {
+                            max-width: 656px;
+                            width: 100%;
+                            input {
+                                padding: 27px 5px 5px;
+                                width: 100%;
+                                border: none;
+                                outline: none;
+                                border-bottom: 1px solid #00000080;
+                                font-family: Avenir;
+                                font-size: 25px;
+                                font-weight: 400;
+                                line-height: 55px;
+                                letter-spacing: 0em;
+                                @media (max-width: 1600px) {
+                                    font-size: 20px;
+                                    line-height: 32px;
+                                    margin-bottom: 16px;
+                                    padding: 5px;
+                                }
+                                @media (max-width: 1024px) {
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    padding: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .successful-payment {
+                margin-top: 127px;
+                font-family: Avenir;
+                font-size: 50px;
+                font-weight: 800;
+                line-height: 60px;
+                letter-spacing: 0em;
+                text-align: left;
+                @media (max-width: 1600px) {
+                    font-size: 36px;
+                    line-height: 42px;
+                    margin-top: 68px;
+                }
+                @media (max-width: 1024px) {
+                    font-size: 26px;
+                    line-height: 38px;
+                    margin-top: 32px;
+                }
+                .colored-text {
+                    color: #d75f04;
+                }
+            }
+            .last-link-div {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 16px;
+                a {
+                    font-family: Avenir;
+                    font-size: 25px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    text-decoration: underline;
+                    color: #d75f04;
+                    @media (max-width: 1600px) {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .right-div {
+            max-width: 611px;
+            width: 100%;
+            background-color: #010506;
+            padding: 75px;
+            @media (max-width: 1600px) {
+                max-width: 510px;
+                padding: 48px;
+            }
+            @media (max-width: 1024px) {
+                padding: 24px;
+                max-width: 100%;
+            }
+            .heading-div {
+                font-family: Avenir;
+                font-size: 40px;
+                font-weight: 800;
+                line-height: 25px;
+                text-align: left;
+                letter-spacing: 0em;
+                color: white;
+                margin-bottom: 63px;
+                @media (max-width: 1600px) {
+                    font-size: 32px;
+                }
+                @media (max-width: 1024px) {
+                    font-size: 24px;
+                }
+            }
+            .detail {
+                margin-bottom: 38px;
+                @media (max-width: 1600px) {
+                    margin-bottom: 24px;
+                }
+
+                .label-div {
+                    font-family: Avenir;
+                    font-size: 25px;
+                    font-weight: 800;
+                    line-height: 35px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #ffffff80;
+                    margin-bottom: 16px;
+                    @media (max-width: 1600px) {
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin-bottom: 6px;
+                    }
+
+                    @media (max-width: 1024px) {
+                        font-size: 18px;
+                        line-height: 30px;
+                    }
+                }
+                .text-div {
+                    font-family: Avenir;
+                    font-size: 35px;
+                    font-weight: 800;
+                    line-height: 55px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #ffffff;
+                    @media (max-width: 1600px) {
+                        font-size: 26px;
+                        line-height: 34px;
+                    }
+
+                    @media (max-width: 1024px) {
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+                }
+            }
+            .btn-div {
+                width: 100%;
+                margin-top: 50px;
+                button {
+                    font-family: Avenir;
+                    font-size: 30px;
+                    font-weight: 800;
+                    line-height: 47px;
+                    letter-spacing: 0em;
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    padding: 24px;
+                    background-color: #d75f04;
+                    color: white;
+                    @media (max-width: 1600px) {
+                        font-size: 20px;
+                        line-height: 30px;
+                        padding: 16px;
+                    }
+
+                    @media (max-width: 1024px) {
+                        font-size: 18px;
+                        line-height: 30px;
+                    }
+                }
+            }
+            .done-btn-div {
+                text-align: center;
+                max-width: 140px;
+                width: 100%;
+                margin: 0 auto;
+                margin-top: 32px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                @media (max-width: 1024px) {
+                    max-width: 100px;
+                }
+            }
+        }
+    }
+}

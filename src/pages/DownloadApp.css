@@ -1,0 +1,180 @@
+.download-section {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: rgba(215, 95, 4, 0.1019607843);
+  padding: 112px 115px;
+  position: relative;
+  margin-bottom: 372px;
+}
+@media (max-width: 1600px) {
+  .download-section {
+    padding: 72px 48px;
+  }
+}
+@media (max-width: 1024px) {
+  .download-section {
+    padding: 24px;
+    margin-bottom: 0px;
+  }
+}
+.download-section .banner-content {
+  max-width: 1005px;
+  width: 100%;
+}
+@media (max-width: 1440px) {
+  .download-section .banner-content {
+    max-width: 880px;
+  }
+}
+.download-section .banner-content .heading-div {
+  font-family: Avenir;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 90px;
+  letter-spacing: 0em;
+  margin-bottom: 50px;
+}
+@media (max-width: 1600px) {
+  .download-section .banner-content .heading-div {
+    font-size: 48px;
+    line-height: 68px;
+  }
+}
+@media (max-width: 1024px) {
+  .download-section .banner-content .heading-div {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+.download-section .banner-content .heading-div span {
+  color: #d75f04;
+}
+.download-section .banner-content .textt {
+  font-family: Avenir;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 1600px) {
+  .download-section .banner-content .textt {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 1024px) {
+  .download-section .banner-content .textt {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+.download-section .banner-content .btn-outer {
+  margin-top: 60px;
+  display: flex;
+  gap: 38px;
+}
+@media (max-width: 1600px) {
+  .download-section .banner-content .btn-outer {
+    gap: 16px;
+  }
+}
+.download-section .banner-content .btn-outer button {
+  max-width: 307px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+@media (max-width: 1600px) {
+  .download-section .banner-content .btn-outer button {
+    max-width: 200px;
+  }
+}
+@media (max-width: 1024px) {
+  .download-section .banner-content .btn-outer button {
+    max-width: 160px;
+  }
+}
+.download-section .banner-content .btn-outer button img {
+  width: 100%;
+  height: 100%;
+}
+.download-section .features-outer-div {
+  background-color: #010506;
+  max-width: 611px;
+  width: 100%;
+  padding: 80px 85px 24px;
+  position: absolute;
+  top: 128px;
+  right: 120px;
+}
+@media (max-width: 1600px) {
+  .download-section .features-outer-div {
+    right: 48px;
+    max-width: 410px;
+    padding: 52px 32px;
+  }
+}
+@media (max-width: 1024px) {
+  .download-section .features-outer-div {
+    position: unset;
+    margin-top: 32px;
+    max-width: 1024px;
+  }
+}
+.download-section .features-outer-div .content-div .heading-div {
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0em;
+  color: #d75f04;
+  margin-bottom: 50px;
+}
+@media (max-width: 1600px) {
+  .download-section .features-outer-div .content-div .heading-div {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1024px) {
+  .download-section .features-outer-div .content-div .heading-div {
+    font-size: 28px;
+  }
+}
+.download-section .features-outer-div .content-div .list-outer-div .list-div {
+  font-family: Avenir;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0em;
+  color: white;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 46px;
+  align-items: center;
+}
+@media (max-width: 1600px) {
+  .download-section .features-outer-div .content-div .list-outer-div .list-div {
+    font-size: 24px;
+    line-height: 36px;
+    gap: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .download-section .features-outer-div .content-div .list-outer-div .list-div {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+.download-section .features-outer-div .content-div .list-outer-div .list-div img {
+  max-width: 32px;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 1600px) {
+  .download-section .features-outer-div .content-div .list-outer-div .list-div img {
+    max-width: 24px;
+  }
+}/*# sourceMappingURL=DownloadApp.css.map */

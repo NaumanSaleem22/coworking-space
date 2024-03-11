@@ -1,0 +1,286 @@
+.location-section {
+  padding: 112px 115px 100px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 1600px) {
+  .location-section {
+    padding: 72px 48px;
+  }
+}
+@media (max-width: 1024px) {
+  .location-section {
+    padding: 48px 24px;
+  }
+}
+.location-section .content-div {
+  max-width: 1211px;
+  width: 100%;
+}
+.location-section .content-div .back-btn {
+  margin-bottom: 90px;
+}
+@media (max-width: 1600px) {
+  .location-section .content-div .back-btn {
+    margin-bottom: 48px;
+  }
+}
+.location-section .content-div .back-btn button {
+  font-family: Avenir;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 0em;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+@media (max-width: 1600px) {
+  .location-section .content-div .back-btn button {
+    font-size: 38px;
+  }
+}
+.location-section .content-div .heading-div {
+  font-family: Avenir;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 90px;
+  letter-spacing: 0em;
+  margin-bottom: 50px;
+}
+.location-section .content-div .heading-div .colored-text {
+  color: #d75f04;
+}
+@media (max-width: 1600px) {
+  .location-section .content-div .heading-div {
+    font-size: 48px;
+    line-height: 68px;
+  }
+}
+@media (max-width: 1024px) {
+  .location-section .content-div .heading-div {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+.location-section .content-div .text {
+  font-family: Avenir;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 0.8);
+}
+@media (max-width: 1600px) {
+  .location-section .content-div .text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 1024px) {
+  .location-section .content-div .text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+.location-section .card-outer-div {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 46px;
+}
+@media (max-width: 1600px) {
+  .location-section .card-outer-div {
+    gap: 24px;
+    margin-top: 48px;
+  }
+}
+@media (max-width: 575px) {
+  .location-section .card-outer-div {
+    gap: 0px;
+    margin-top: 24px;
+  }
+}
+.location-section .card-outer-div .card-location {
+  width: calc(22.9% - 1px);
+  background-color: rgba(215, 95, 4, 0.1019607843);
+  max-width: 388px;
+  max-height: 368px;
+  height: 100%;
+  padding: 139px 69px;
+  text-align: center;
+  margin-bottom: 46px;
+  cursor: pointer;
+  transition: 0.2s ease all;
+}
+@media (max-width: 1600px) {
+  .location-section .card-outer-div .card-location {
+    padding: 100px 24px;
+  }
+}
+@media (max-width: 1024px) {
+  .location-section .card-outer-div .card-location {
+    padding: 70px 24px;
+    width: 28%;
+  }
+}
+@media (max-width: 768px) {
+  .location-section .card-outer-div .card-location {
+    padding: 70px 24px;
+    width: 46%;
+  }
+}
+@media (max-width: 575px) {
+  .location-section .card-outer-div .card-location {
+    padding: 70px 24px;
+    width: 95%;
+  }
+}
+.location-section .card-outer-div .card-location:hover {
+  background-color: #d75f04;
+}
+.location-section .card-outer-div .card-location:hover .content {
+  color: white;
+}
+.location-section .card-outer-div .card-location:hover .content img {
+  filter: grayscale(1) brightness(100);
+}
+.location-section .card-outer-div .card-location:hover .content-div {
+  color: white;
+}
+.location-section .card-outer-div .card-location:hover .content-div .btn-div button {
+  color: white;
+  border: 1px solid white;
+}
+.location-section .card-outer-div .card-location .content {
+  font-family: Avenir;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: 0.2s ease all;
+}
+.location-section .card-outer-div .card-location .content img {
+  max-width: 36px;
+  width: 100%;
+  transition: 0.1s ease all;
+}
+@media (max-width: 1600px) {
+  .location-section .card-outer-div .card-location .content {
+    font-size: 36px;
+    line-height: 52px;
+  }
+}
+@media (max-width: 1024px) {
+  .location-section .card-outer-div .card-location .content {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+.location-section .card-outer-div .state-card {
+  padding: 0px 16px;
+}
+.location-section .card-outer-div .state-card .content {
+  font-family: Avenir;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+}
+@media (max-width: 1600px) {
+  .location-section .card-outer-div .state-card .content {
+    font-size: 28px;
+    line-height: 90px;
+  }
+}
+@media (max-width: 1024px) {
+  .location-section .card-outer-div .state-card .content {
+    font-size: 20px;
+  }
+}
+.location-section .card-outer-div .state-specific-card {
+  padding: 22px 20px 54px;
+  text-align: center;
+  max-height: 378px;
+}
+@media (max-width: 1600px) {
+  .location-section .card-outer-div .state-specific-card {
+    padding: 16px 16px 32px;
+  }
+}
+.location-section .card-outer-div .state-specific-card .content-div .heading {
+  font-family: Avenir;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 90px;
+  letter-spacing: 0em;
+}
+@media (max-width: 1600px) {
+  .location-section .card-outer-div .state-specific-card .content-div .heading {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1024px) {
+  .location-section .card-outer-div .state-specific-card .content-div .heading {
+    font-size: 22px;
+  }
+}
+.location-section .card-outer-div .state-specific-card .content-div .textt {
+  font-family: Avenir;
+  font-size: 25px;
+  font-weight: 350;
+  line-height: 40px;
+  letter-spacing: 0em;
+  margin-bottom: 25px;
+}
+@media (max-width: 1600px) {
+  .location-section .card-outer-div .state-specific-card .content-div .textt {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .location-section .card-outer-div .state-specific-card .content-div .textt {
+    font-size: 16px;
+  }
+}
+.location-section .card-outer-div .state-specific-card .content-div .btn-div {
+  max-width: 189px;
+  width: 100%;
+  margin: 0 auto;
+}
+.location-section .card-outer-div .state-specific-card .content-div .btn-div button {
+  background-color: transparent;
+  border: 1px solid #d75f04;
+  outline: none;
+  font-family: Avenir;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 39px;
+  letter-spacing: 0em;
+  padding: 12px 27px;
+  color: #d75f04;
+  width: 100%;
+}
+@media (max-width: 1600px) {
+  .location-section .card-outer-div .state-specific-card .content-div .btn-div button {
+    font-size: 20px;
+    padding: 6px 12px;
+  }
+}
+@media (max-width: 1024px) {
+  .location-section .card-outer-div .state-specific-card .content-div .btn-div button {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=Location.css.map */
