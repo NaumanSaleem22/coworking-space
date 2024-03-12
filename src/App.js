@@ -31,6 +31,7 @@ import HireOurInteriorDesigner from './pages/HireOurInteriorDesigner';
 import HowToDoIt from './pages/HowToDoIt';
 import GetStarted from './pages/GetStarted';
 import SpaceDetails from './pages/SpaceDetails';
+import SearchOverlay from './pages/SearchOverlay';
 function App() {
   return (
     <BrowserRouter>
@@ -66,6 +67,7 @@ function App() {
           <Route path="/how-to-do-it" element={<HowToDoIt />} />
           <Route path="/get-started" element={<GetStarted />} />
           <Route path="/space-details" element={<SpaceDetails />} />
+          <Route path="/search-overlay" element={<SearchOverlay />} />
 
         </Route>
       </Routes>
