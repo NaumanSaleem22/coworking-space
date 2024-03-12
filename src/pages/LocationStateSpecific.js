@@ -1,5 +1,6 @@
 import React from 'react'
 import BackArrow from '../assets/images/back-arrow-btn.svg'
+import { Outlet, Link } from "react-router-dom";
 function LocationStateSpecific() {
     return (
         <div className='location-section'>
@@ -25,9 +26,11 @@ function LocationStateSpecific() {
                             Located Centrally within Mansarovar Colony, JaipurAt 34/06, Kiran Path
                         </div>
                         <div className='btn-div'>
-                            <button>
-                                Know more
-                            </button>
+                            <Link to="/state-space-details">
+                                <button>
+                                    Know more
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

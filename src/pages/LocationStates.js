@@ -1,6 +1,7 @@
 import React from 'react'
 import BackArrow from '../assets/images/back-arrow-btn.svg'
 import './Location.css'
+import { Outlet, Link } from "react-router-dom";
 function LocationStates() {
     return (
         <div className='location-section'>
@@ -22,9 +23,11 @@ function LocationStates() {
                     </div>
                 </div>
                 <div className='card-location state-card'>
-                    <div className='content'>
-                        Maharashtra
-                    </div>
+                    <Link to="/location-state-specific">
+                        <div className='content'>
+                            Maharashtra
+                        </div>
+                    </Link>
                 </div>
                 <div className='card-location state-card'>
                     <div className='content'>

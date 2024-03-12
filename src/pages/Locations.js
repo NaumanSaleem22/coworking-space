@@ -1,7 +1,7 @@
 import React from 'react'
 import LocationIcon from '../assets/images/location-colored.svg'
 import './Location.css'
-
+import { Outlet, Link } from "react-router-dom";
 function Locations() {
     return (
         <div className='location-section'>
@@ -19,9 +19,11 @@ function Locations() {
 
             <div className='card-outer-div'>
                 <div className='card-location'>
-                    <div className='content'>
-                        <img src={LocationIcon} alt='' /> Argentina
-                    </div>
+                    <Link to="/location-state">
+                        <div className='content'>
+                            <img src={LocationIcon} alt='' /> Argentina
+                        </div>
+                    </Link>
                 </div>
                 <div className='card-location'>
                     <div className='content'>
