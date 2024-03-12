@@ -11,7 +11,7 @@
         width: 100%;
         padding: 208px 32px 192px;
         @media (max-width: 1024px) {
-            padding: 128px 24px;
+            padding: 72px 24px;
         }
         .search-location-div {
             padding: 77px 79px 80px;
@@ -215,4 +215,12 @@
     background-color: transparent;
     border: none;
     outline: none;
+    @media (max-width: 1600px) {
+        right: 48px;
+        top: 48px;
+    }
+    @media (max-width: 1024px) {
+        right: 24px;
+        top: 24px;
+    }
 }
