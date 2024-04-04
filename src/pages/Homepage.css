@@ -212,6 +212,11 @@
   text-align: center;
   padding: 10px 23px;
   border-radius: 2px;
+  transition: 0.2s ease all;
+}
+.home-section .banner-section .search-location-div .tags-outer .tag:hover {
+  border: 1px solid white;
+  color: white;
 }
 @media (max-width: 1600px) {
   .home-section .banner-section .search-location-div .tags-outer .tag {

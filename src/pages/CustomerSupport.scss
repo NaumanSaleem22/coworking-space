@@ -130,6 +130,13 @@
             color: #000000cc;
             max-width: 812px;
         }
+        .custom-arrow.prev {
+            color: #000;
+            border: 1px solid black;
+        }
+        .custom-arrow.next {
+            background-color: #000000;
+        }
     }
     .here-to-help-section {
         padding: 0px 95px;
@@ -354,7 +361,7 @@
                 background-color: #d75f04;
                 padding: 62px 67px;
                 @media (max-width: 1600px) {
-                    padding: 48px 32px;
+                    padding: 37px 32px;
                     width: calc(32% - 1px);
                 }
                 @media (max-width: 1024px) {

@@ -65,8 +65,8 @@ function Membership() {
         <div className='rooms-section'>
             {/* banner section */}
             <section className='room-banner-section'>
-                <div className='outer-div'>
-                    <div className='content-div-outer'>
+                <div className='outer-div membership-outer-div'>
+                    <div className='content-div-outer membership-content-div-outer-bg'>
                         <div className='content-div'>
                             <div className='heading'>
                                 Membership <span className='colored-text'>.</span>

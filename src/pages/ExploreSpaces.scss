@@ -69,6 +69,13 @@
                         border: 1px solid #00000080;
                         border-radius: 7px;
                         overflow: hidden;
+                        transition: 0.2s ease all;
+                        &:hover {
+                            background-color: black;
+                            .nav-link {
+                                color: white;
+                            }
+                        }
                         .nav-link {
                             font-family: Avenir;
                             font-size: 25px;
@@ -79,6 +86,7 @@
                             color: #00000080;
                             border: none;
                             padding: 12px 24px;
+                            transition: 0.2s ease all;
                             @media (max-width: 1600px) {
                                 font-size: 20px;
                                 line-height: 32px;

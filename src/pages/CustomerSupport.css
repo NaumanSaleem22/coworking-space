@@ -149,6 +149,13 @@
   color: rgba(0, 0, 0, 0.8);
   max-width: 812px;
 }
+.customer-support-section .optimized-workstation-slider-section-without-bg .custom-arrow.prev {
+  color: #000;
+  border: 1px solid black;
+}
+.customer-support-section .optimized-workstation-slider-section-without-bg .custom-arrow.next {
+  background-color: #000000;
+}
 .customer-support-section .here-to-help-section {
   padding: 0px 95px;
   margin-top: -135px;
@@ -425,7 +432,7 @@
 }
 @media (max-width: 1600px) {
   .customer-support-section .top-articles-section .card-outer-div .get-in-touch {
-    padding: 48px 32px;
+    padding: 37px 32px;
     width: calc(32% - 1px);
   }
 }

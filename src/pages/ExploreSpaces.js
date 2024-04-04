@@ -72,10 +72,10 @@ function ExploreSpaces() {
                                 <button class="nav-link" id="membership-tab" data-bs-toggle="tab" data-bs-target="#membership-tab-pane" type="button" role="tab" aria-controls="membership-tab-pane" aria-selected="false">Membership Flexibility</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="amenities-tab" data-bs-toggle="tab" data-bs-target="#amenities-tab-pane" type="button" role="tab" aria-controls="amenities-tab-pane" aria-selected="false">Amenities</button>
+                                <button class="nav-link" id="price-tab" data-bs-toggle="tab" data-bs-target="#price-tab-pane" type="button" role="tab" aria-controls="price-tab-pane" aria-selected="false" >Price Range</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="price-tab" data-bs-toggle="tab" data-bs-target="#price-tab-pane" type="button" role="tab" aria-controls="price-tab-pane" aria-selected="false" >Price Range</button>
+                                <button class="nav-link" id="amenities-tab" data-bs-toggle="tab" data-bs-target="#amenities-tab-pane" type="button" role="tab" aria-controls="amenities-tab-pane" aria-selected="false">Amenities</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="coworking-tab" data-bs-toggle="tab" data-bs-target="#coworking-tab-pane" type="button" role="tab" aria-controls="coworking-tab-pane" aria-selected="false">Coworking</button>

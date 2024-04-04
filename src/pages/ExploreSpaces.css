@@ -86,6 +86,13 @@
   border: 1px solid rgba(0, 0, 0, 0.5019607843);
   border-radius: 7px;
   overflow: hidden;
+  transition: 0.2s ease all;
+}
+.explore-space-section .explore-us-section .tabs-outer-div .tab-btn-outer-div .nav-tabs .nav-item:hover {
+  background-color: black;
+}
+.explore-space-section .explore-us-section .tabs-outer-div .tab-btn-outer-div .nav-tabs .nav-item:hover .nav-link {
+  color: white;
 }
 .explore-space-section .explore-us-section .tabs-outer-div .tab-btn-outer-div .nav-tabs .nav-item .nav-link {
   font-family: Avenir;
@@ -97,6 +104,7 @@
   color: rgba(0, 0, 0, 0.5019607843);
   border: none;
   padding: 12px 24px;
+  transition: 0.2s ease all;
 }
 @media (max-width: 1600px) {
   .explore-space-section .explore-us-section .tabs-outer-div .tab-btn-outer-div .nav-tabs .nav-item .nav-link {
